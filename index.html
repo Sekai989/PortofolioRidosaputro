@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Rido Saputro</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ════════════════ CURSOR ════════════════ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!-- ════════════════ NAVBAR ════════════════ -->
+  <nav id="navbar">
+    <a href="#home" class="nav-logo">
+      <span>R</span>ido<em>.</em>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">Tentang</a></li>
+      <li><a href="#skills" class="nav-link">Skill</a></li>
+      <li><a href="#project" class="nav-link">Project</a></li>
+      <li><a href="#certificate" class="nav-link">Sertifikat</a></li>
+      <li><a href="#contact" class="nav-link">Kontak</a></li>
+    </ul>
+
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ════════════════ HERO ════════════════ -->
+  <section class="hero" id="home">
+    <!-- Background decoration -->
+    <div class="hero-bg-circle circle-1"></div>
+    <div class="hero-bg-circle circle-2"></div>
+    <div class="hero-grain"></div>
+
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-eyebrow">
+          <span class="dot-pulse"></span>
+          <span>Fresh Graduate · DKV · Jakarta</span>
+        </div>
+
+        <h1 class="hero-heading">
+          <span class="line-wrap"><span class="line-inner line-1">Halo, saya</span></span>
+          <span class="line-wrap"><span class="line-inner line-2 accent-text">Rido Saputro</span></span>
+        </h1>
+
+        <p class="hero-desc">
+          Lulusan SMK Desain Komunikasi Visual dengan passion di desain grafis,
+          UI/UX, dan teknologi komputer.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#project" class="btn-solid">
+            Lihat Karya
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="#contact" class="btn-outline">Hubungi Saya</a>
+        </div>
+
+        <!-- Quick contacts -->
+        <div class="hero-socials">
+          <a href="https://www.instagram.com/dosptro?igsh=ZGQ4M3EyYWs3N2p4" target="_blank" class="social-pill">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/+6285169072307" target="_blank" class="social-pill">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="mailto:ridosaputro2007@gmail.com" class="social-pill">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-img-frame">
+          <div class="frame-ring"></div>
+          <div class="frame-ring ring-2"></div>
+          <div class="img-container">
+            <img
+              src="https://www.image2url.com/r2/default/images/1778494011362-99c6598f-030a-4b0e-a721-f9f43bdacada.png"
+              alt="Rido Saputro"
+              class="profile-img"
+            />
+          </div>
+        </div>
+
+        <!-- Floating info card -->
+        <div class="float-card card-top">
+          <div class="float-icon"><i class="fa-solid fa-palette"></i></div>
+          <div>
+            <strong>UI/UX Designer</strong>
+            <span>Adobe Illustrator · Figma</span>
+          </div>
+        </div>
+
+        <div class="float-card card-bottom">
+          <div class="float-icon"><i class="fa-solid fa-star"></i></div>
+          <div>
+            <strong>PKL Selesai</strong>
+            <span>Quality Control · 2025</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ════════════════ ABOUT ════════════════ -->
+  <section id="about" class="section section-about">
+    <div class="container">
+      <div class="section-label reveal">
+        <span class="label-line"></span>
+        <span>Tentang Saya</span>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <h2 class="section-heading">
+            Kenalan lebih<br><em>dekat dengan</em><br>saya.
+          </h2>
+
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Tahun Belajar Desain</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Project Selesai</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">3mo</span>
+              <span class="stat-label">Pengalaman PKL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-right reveal">
+          <div class="about-card">
+            <p>
+              Saya adalah lulusan SMK Tunas Harapan jurusan <strong>Desain Komunikasi Visual</strong>
+              yang memiliki semangat belajar tinggi, teliti, dan mampu bekerja sama dalam tim.
+            </p>
+            <p>
+              Memiliki pengalaman sebagai <strong>Quality Control</strong> di Inti Prima Karya (Januari–Maret 2025),
+              serta pengalaman mendesain kartu pelajar dan mengelola data menggunakan
+              <strong>Adobe Illustrator</strong> dan <strong>Microsoft Excel</strong>.
+            </p>
+            <p>
+              Saya juga memiliki minat di bidang komputer — memahami komponen PC
+              dan mampu melakukan troubleshooting dasar komputer secara mandiri.
+            </p>
+
+            <div class="about-tags">
+              <span class="tag">Adobe Illustrator</span>
+              <span class="tag">Figma</span>
+              <span class="tag">Microsoft Excel</span>
+              <span class="tag">Quality Control</span>
+              <span class="tag">Hardware PC</span>
+              <span class="tag">Kerja Tim</span>
+              <span class="tag">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════ SKILLS ════════════════ -->
+  <section id="skills" class="section section-skills">
+    <div class="container">
+      <div class="section-label reveal">
+        <span class="label-line"></span>
+        <span>Kemampuan</span>
+      </div>
+
+      <h2 class="section-heading reveal">Skill <em>Saya</em></h2>
+      <p class="section-sub reveal">Bidang keahlian yang saya kuasai</p>
+
+      <div class="skills-grid">
+
+        <div class="skill-card reveal" data-delay="0">
+          <div class="skill-num">01</div>
+          <div class="skill-icon-wrap">
+            <i class="fa-solid fa-pen-ruler"></i>
+          </div>
+          <h3>Desain Grafis & UI/UX</h3>
+          <p>
+            Menggunakan <strong>Adobe Illustrator</strong> dan <strong>Figma</strong> untuk
+            membuat desain brand guideline, kartu pelajar, dan prototype UI/UX.
+          </p>
+          <div class="skill-tools">
+            <span>Illustrator</span>
+            <span>Figma</span>
+            <span>Branding</span>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-progress-header">
+              <span class="skill-progress-label">Tingkat Keahlian</span>
+              <span class="skill-progress-pct">85%</span>
+            </div>
+            <div class="skill-progress-bar">
+              <div class="skill-progress-fill" data-width="85"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" data-delay="100">
+          <div class="skill-num">02</div>
+          <div class="skill-icon-wrap">
+            <i class="fa-solid fa-microchip"></i>
+          </div>
+          <h3>Pengetahuan Komputer</h3>
+          <p>
+            Memahami <strong>komponen komputer</strong>, cara merakit PC,
+            serta troubleshooting dasar hardware secara mandiri.
+          </p>
+          <div class="skill-tools">
+            <span>Hardware</span>
+            <span>Troubleshoot</span>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-progress-header">
+              <span class="skill-progress-label">Tingkat Keahlian</span>
+              <span class="skill-progress-pct">80%</span>
+            </div>
+            <div class="skill-progress-bar">
+              <div class="skill-progress-fill" data-width="80"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" data-delay="200">
+          <div class="skill-num">03</div>
+          <div class="skill-icon-wrap">
+            <i class="fa-solid fa-table-cells"></i>
+          </div>
+          <h3>Data & Microsoft Excel</h3>
+          <p>
+            Mampu mengolah dan mengelola data menggunakan <strong>Microsoft Excel</strong>
+            untuk keperluan administrasi, pendataan.
+          </p>
+          <div class="skill-tools">
+            <span>Excel</span>
+            <span>Data Entry</span>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-progress-header">
+              <span class="skill-progress-label">Tingkat Keahlian</span>
+              <span class="skill-progress-pct">70%</span>
+            </div>
+            <div class="skill-progress-bar">
+              <div class="skill-progress-fill" data-width="70"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════ PROJECTS ════════════════ -->
+  <section id="project" class="section section-project">
+    <div class="container">
+      <div class="section-label reveal">
+        <span class="label-line"></span>
+        <span>Karya</span>
+      </div>
+
+      <h2 class="section-heading reveal">Project & <em>Portofolio</em></h2>
+      <p class="section-sub reveal">Beberapa karya yang telah saya buat</p>
+
+      <!-- Tab Navigation: Desain Grafis (kiri) | Ilmu Teknologi (kanan) -->
+      <div class="portfolio-tabs reveal">
+        <button class="portfolio-tab-btn active" data-tab="desain">
+          <span class="tab-icon"><i class="fa-solid fa-pen-ruler"></i></span>
+          <span class="tab-label">Desain Grafis</span>
+        </button>
+        <div class="tab-divider"></div>
+        <button class="portfolio-tab-btn" data-tab="teknologi">
+          <span class="tab-icon"><i class="fa-solid fa-microchip"></i></span>
+          <span class="tab-label">Ilmu Teknologi</span>
+        </button>
+      </div>
+
+      <!-- Tab: Desain Grafis (kiri / default aktif) -->
+      <div class="portfolio-tab-panel active" id="tab-desain">
+        <div class="tab-panel-intro">
+          <span class="tab-badge tab-badge--desain"><i class="fa-solid fa-pen-ruler"></i> Desain Grafis</span>
+        </div>
+        <div class="projects-grid">
+
+          <!-- Featured: Figma UI/UX (dipindahkan ke Desain Grafis) -->
+          <div class="project-card project-featured project-featured--desain">
+            <div class="project-category">UI/UX · Figma</div>
+            <div class="project-num-big">01</div>
+            <h3>High-Fidelity UI/UX Design</h3>
+            <p>Prototype UI/UX high-fidelity interaktif menggunakan Figma dengan tampilan modern dan alur navigasi yang terstruktur rapi.</p>
+            <a href="https://www.figma.com/proto/GcOFEUTDWeXwVhuyLNEpFR/Rido_Module-2_High-Fidelity?node-id=1-2&starting-point-node-id=32%3A92" target="_blank" class="project-link">
+              Buka di Figma
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M2.5 11.5L11.5 2.5M11.5 2.5H5M11.5 2.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Logo #1 -->
+          <div class="project-card">
+            <div class="project-category">Logo · Illustrator</div>
+            <div class="project-num-big">02</div>
+            <h3>Logo #1</h3>
+            <p>Desain logo profesional dengan konsep visual yang kuat, mencerminkan identitas brand secara jelas dan berkesan.</p>
+            <a href="https://drive.google.com/file/d/1RQhpGDnwSNPAbUKAg248PCgyylzoaS8m/view?usp=drivesdk" target="_blank" class="project-link">
+              Lihat Logo
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M2.5 11.5L11.5 2.5M11.5 2.5H5M11.5 2.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Logo #2 -->
+          <div class="project-card">
+            <div class="project-category">Logo · Illustrator</div>
+            <div class="project-num-big">03</div>
+            <h3>Logo #2</h3>
+            <p>Desain logo modern dengan tipografi dan elemen grafis yang harmonis untuk kebutuhan identitas visual.</p>
+            <a href="https://drive.google.com/file/d/1qSj07ns18Z6VUvQyFUwG30SKTWzllMvM/view?usp=drivesdk" target="_blank" class="project-link">
+              Lihat Logo
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M2.5 11.5L11.5 2.5M11.5 2.5H5M11.5 2.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Logo #3 -->
+          <div class="project-card">
+            <div class="project-category">Logo · Illustrator</div>
+            <div class="project-num-big">04</div>
+            <h3>Logo #3</h3>
+            <p>Desain logo minimalis dan elegan yang menggambarkan karakter brand secara estetis dan mudah diingat.</p>
+            <a href="https://drive.google.com/file/d/18oDS-9xSWmqYfeY0duaW8o8YCe0gX2lD/view?usp=drivesdk" target="_blank" class="project-link">
+              Lihat Logo
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M2.5 11.5L11.5 2.5M11.5 2.5H5M11.5 2.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Brand Guideline lama tetap ada -->
+          <div class="project-card">
+            <div class="project-category">Branding · Illustrator</div>
+            <div class="project-num-big">05</div>
+            <h3>Brand Guideline #1</h3>
+            <p>Desain brand guideline modern dan clean untuk identitas visual yang kuat dan konsisten.</p>
+            <a href="https://drive.google.com/file/d/1cJ_dXyTjDlEbfxMrG-hWP3k8J_kYX9Tt/view?usp=drivesdk" target="_blank" class="project-link">
+              Lihat Project
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M2.5 11.5L11.5 2.5M11.5 2.5H5M11.5 2.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-category">Branding · Illustrator</div>
+            <div class="project-num-big">06</div>
+            <h3>Brand Guideline #2</h3>
+            <p>Project branding dengan tampilan profesional dan sistem visual yang terstruktur.</p>
+            <a href="https://drive.google.com/file/d/1qZzPDIu4Pvocv9vYrePZ3D3jQezzUfgN/view?usp=drivesdk" target="_blank" class="project-link">
+              Lihat Project
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M2.5 11.5L11.5 2.5M11.5 2.5H5M11.5 2.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-category">Branding · Illustrator</div>
+            <div class="project-num-big">07</div>
+            <h3>Brand Guideline #3</h3>
+            <p>Desain visual identity dengan konsep clean dan pendekatan minimalis yang elegan.</p>
+            <a href="https://drive.google.com/file/d/1NNlLOZLJTu4__oYKfxXzUjotx79h_gA5/view?usp=drivesdk" target="_blank" class="project-link">
+              Lihat Project
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M2.5 11.5L11.5 2.5M11.5 2.5H5M11.5 2.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-category">Branding · Illustrator</div>
+            <div class="project-num-big">08</div>
+            <h3>Brand Guideline #4</h3>
+            <p>Project desain branding komprehensif dengan panduan warna, tipografi, dan elemen visual.</p>
+            <a href="https://drive.google.com/file/d/1SkE_KtRveKvPG22eelfYgd24IXz41ZpE/view?usp=drivesdk" target="_blank" class="project-link">
+              Lihat Project
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M2.5 11.5L11.5 2.5M11.5 2.5H5M11.5 2.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Tab: Ilmu Teknologi (kanan) -->
+      <div class="portfolio-tab-panel" id="tab-teknologi">
+        <div class="tab-panel-intro">
+          <span class="tab-badge tab-badge--teknologi"><i class="fa-solid fa-microchip"></i> Ilmu Teknologi</span>
+        </div>
+        <div class="projects-grid projects-grid--3col">
+
+          <!-- Foto Setup / Rakit PC -->
+          <div class="project-card project-featured">
+            <div class="project-category">Hardware · Perakitan PC</div>
+            <div class="project-num-big">01</div>
+            <h3>Rakit PC & Setup</h3>
+            <p>Melakukan perakitan PC desktop secara mandiri mulai dari pemasangan motherboard, CPU, RAM, storage, PSU, hingga instalasi sistem pendingin dan cable management.
+Memastikan kompatibilitas komponen, kestabilan sistem, serta tampilan build yang rapi dan optimal untuk penggunaan harian/gaming</p>
+            <a href="https://drive.google.com/file/d/1iQelkhVKnDm3nrOTSW8uxlbNq0kUDCgV/view?usp=drivesdk" target="_blank" class="project-link">
+              Lihat Foto
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M2.5 11.5L11.5 2.5M11.5 2.5H5M11.5 2.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Coding -->
+          <div class="project-card">
+            <div class="project-category">Programming · Coding</div>
+            <div class="project-num-big">02</div>
+            <h3>Coding</h3>
+            <p>Kumpulan project dan latihan coding yang mencakup pengembangan logika pemrograman, struktur data, dan penyelesaian masalah teknis.</p>
+            <a href="https://drive.google.com/drive/folders/1Yuuq5fseoppkcQurp0vxK7ef_7ho70jt" target="_blank" class="project-link">
+              Lihat Project
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M2.5 11.5L11.5 2.5M11.5 2.5H5M11.5 2.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Kabel LAN -->
+          <div class="project-card">
+            <div class="project-category">Jaringan · Kabel LAN</div>
+            <div class="project-num-big">03</div>
+            <h3>Menyambungkan Kabel LAN ke PC</h3>
+            <p>Dokumentasi pemasangan dan konfigurasi kabel LAN dari router ke PC untuk koneksi jaringan lokal yang stabil dan optimal.</p>
+            <a href="https://drive.google.com/drive/folders/1kf5YSBjrg7JebRKTNTZwuKqe9gMO0sid" target="_blank" class="project-link">
+              Lihat Dokumentasi
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M2.5 11.5L11.5 2.5M11.5 2.5H5M11.5 2.5V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════ CERTIFICATE ════════════════ -->
+  <section id="certificate" class="section section-cert">
+    <div class="container">
+      <div class="section-label reveal">
+        <span class="label-line"></span>
+        <span>Sertifikat</span>
+      </div>
+
+      <h2 class="section-heading reveal">Pencapaian & <em>Sertifikat</em></h2>
+      <p class="section-sub reveal">Bukti nyata pengalaman dan pembelajaran</p>
+
+      <div class="cert-wrapper reveal">
+        <div class="cert-card">
+          <div class="cert-left">
+            <div class="cert-badge">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <div class="cert-info">
+              <span class="cert-type">Sertifikat Resmi</span>
+              <h3>Sertifikat PKL</h3>
+              <p>Praktik Kerja Lapangan di <strong>Inti Prima Karya</strong> sebagai
+                Quality Control · Januari - Maret 2025</p>
+              <div class="cert-meta">
+                <span><i class="fa-solid fa-building"></i> Inti Prima Karya</span>
+                <span><i class="fa-solid fa-calendar"></i> 2025</span>
+              </div>
+            </div>
+          </div>
+          <a href="https://drive.google.com/file/d/1XIHlz9dkKLAF2QnU80fPl-4AQqnvcyiJ/view?usp=drivesdk" target="_blank" class="cert-btn">
+            <i class="fa-solid fa-eye"></i>
+            Lihat Sertifikat
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════ CONTACT ════════════════ -->
+  <section id="contact" class="section section-contact">
+    <div class="container">
+      <div class="section-label reveal">
+        <span class="label-line"></span>
+        <span>Kontak</span>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-left reveal">
+          <h2 class="section-heading">
+            Punya ide?<br>Yuk <em>ngobrol!</em>
+          </h2>
+          <p class="contact-desc">
+            Saya terbuka untuk kolaborasi desain, freelance project,
+            atau sekadar bertukar pikiran. Jangan ragu untuk menghubungi saya!
+          </p>
+
+          <div class="contact-detail">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Jl. Indraloka I GG III No. 48, Jakarta Barat</span>
+          </div>
+          <div class="contact-detail">
+            <i class="fa-solid fa-envelope"></i>
+            <span>ridosaputro2007@gmail.com</span>
+          </div>
+        </div>
+
+        <div class="contact-right reveal">
+          <a href="https://www.instagram.com/dosptro?igsh=ZGQ4M3EyYWs3N2p4" target="_blank" class="contact-card">
+            <div class="contact-card-icon ig">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="contact-card-info">
+              <strong>Instagram</strong>
+              <span>@dosptro</span>
+            </div>
+            <div class="contact-card-arrow">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+
+          <a href="https://wa.me/+6285169072307" target="_blank" class="contact-card">
+            <div class="contact-card-icon wa">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div class="contact-card-info">
+              <strong>WhatsApp</strong>
+              <span>+62 851-6907-2307</span>
+            </div>
+            <div class="contact-card-arrow">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+
+          <a href="mailto:ridosaputro2007@gmail.com" class="contact-card">
+            <div class="contact-card-icon em">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="contact-card-info">
+              <strong>Email</strong>
+              <span>ridosaputro2007@gmail.com</span>
+            </div>
+            <div class="contact-card-arrow">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════ FOOTER ════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">Rido<em>.</em></div>
+      <p> © 2026 Rido Saputro — Portfolio Website</p>
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/dosptro?igsh=ZGQ4M3EyYWs3N2p4" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/+6285169072307" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="mailto:ridosaputro2007@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
